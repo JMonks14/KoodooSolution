@@ -1,31 +1,6 @@
-const accountBalanceHistory = [
-    {
-      monthNumber: 0, // current month
-      account: {
-        balance: { amount: 0 },
-      },
-    },
-    {
-      monthNumber: 1, // last month
-      account: {
-        balance: { amount: 100 },
-      },
-    },
-    {
-      monthNumber: 2, // two months ago
-      account: {
-        balance: { amount: 100 },
-      },
-    },
-    {
-        monthNumber: 3, // two months ago
-        account: {
-          balance: { amount: 100 },
-        },
-      }
-  ]
 
-  const accountTypeChecker = (accountBalanceHistory) => {
+module.exports = {
+   accountTypeChecker : (accountBalanceHistory) => {
     /***
     Your goal is to write a function that determines from someone's ${accountBalanceHistory} 🧾 (see the array above for an example)
     whether this array is of type A (variable) or type B (fixed).
@@ -53,6 +28,6 @@ const accountBalanceHistory = [
     }
   
     return "B";
-  };
-
-  console.log(accountTypeChecker(accountBalanceHistory))
+  }
+}
+//   console.log(accountTypeChecker(accountBalanceHistory))

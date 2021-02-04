@@ -1,0 +1,23 @@
+{
+  "name": "koodoosolution",
+  "version": "1.0.0",
+  "description": "Koodoo problem solution",
+  "main": "balanceHistory.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMonks14/KoodooSolution.git"
+  },
+  "author": "Dr. James Monks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMonks14/KoodooSolution/issues"
+  },
+  "homepage": "https://github.com/JMonks14/KoodooSolution#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
