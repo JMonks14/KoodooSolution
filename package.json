@@ -2,7 +2,7 @@
   "name": "koodoosolution",
   "version": "1.0.0",
   "description": "Koodoo problem solution",
-  "main": "balanceHistory.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "jest --coverage"
